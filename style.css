@@ -769,7 +769,7 @@
             border-color: rgba(80,230,255,0.3);
             transform: translateY(-4px);
         }
-        .sponsor-logo img { max-width: 100%; max-height: 100%; object-fit: contain; padding: 16px; filter: brightness(1.1) saturate(0.6); transition: filter 0.3s; }
+        .sponsor-logo img { max-width: 100%; max-height: 100%; object-fit: cover; padding: 20px; filter: brightness(1.1) saturate(0.6); transition: filter 0.3s; }
         .sponsor-logo:hover img { filter: brightness(1.2) saturate(1); }
         .sponsor-logo.platinum { width: 220px; height: 100px; }
         .sponsor-logo.gold { width: 175px; height: 80px; }
